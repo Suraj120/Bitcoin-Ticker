@@ -17,6 +17,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     let currencySymbol = ["$", "R$", "$", "¥", "€", "£", "$", "Rp", "₪", "₹", "¥", "$", "kr", "$", "zł", "lei", "₽", "kr", "$", "$", "R"]
     var currencySelected = ""
     var finalURL = ""
+    
 
     //Pre-setup IBOutlets
     @IBOutlet weak var bitcoinPriceLabel: UILabel!
